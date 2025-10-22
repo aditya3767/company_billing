@@ -5,7 +5,6 @@ from pandas.core.interchange import buffer
 from com_billing import *  # Import your existing functions (adapt as needed)
 from io import BytesIO
 from reportlab.pdfgen import canvas  # For PDF generation
-
 app = Flask(__name__)
 CORS(app)
 
